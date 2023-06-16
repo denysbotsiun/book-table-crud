@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background: rgb(66, 139, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(66, 139, 162, 1) 0%,
+    rgba(163, 102, 162, 1) 50%,
+    rgba(252, 198, 69, 0.6278886554621849) 100%
+  );
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.bookTable,
+.bookTable_cell {
+  padding: 1rem;
+}
+
+.tableOverlay {
+  width: 90vw;
+  height: 90vh;
+  background-color: #fff5;
+  box-shadow: 0 0 10px #0005;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.tableHead {
+  width: 100%;
+  height: 10%;
+  background-color: #fff4;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &_filter {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 10px;
+  }
+}
+
+.tableBody {
+  width: 95%;
+  max-height: calc(90% - 40px);
+  background-color: #fffb;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #0004;
+    visibility: hidden;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+}
+
+.bookTable {
+  width: 100%;
+  padding: 25px;
+  text-align: left;
+  border-collapse: collapse;
+  &_cell {
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+  }
+  &_data {
+    padding: 25px;
+    @media (max-width: 1000px) {
+      min-width: 200px;
+    }
+  }
+  &_bodyRow:nth-child(even) {
+    background-color: #0000000b;
+    transition: all 0.3s ease-in-out;
+  }
+  &_bodyRow:hover {
+    background-color: #fff6;
+  }
+  &_btn {
+    display: flex;
+    gap: 10px;
+  }
+  &_deletedRow {
+    background-color: rgb(221, 93, 93);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(221, 36, 36);
+    }
+  }
+}
+
+.addBtn {
+  margin-bottom: 50px;
+}
+
+.button {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff6;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.activateBtn {
+  background-color: rgb(101, 158, 101);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: rgb(52, 136, 52);
+  }
+}
+
+.disactivateBtn {
+  background-color: rgb(117, 117, 230);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: rgb(69, 69, 209);
+  }
+}
+
+.deleteBtn {
+  background-color: rgb(219, 77, 77);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: rgb(216, 46, 46);
+  }
+}
+.hidden {
+  display: none;
+}

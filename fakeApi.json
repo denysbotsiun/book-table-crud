@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "title": "Simpsons",
+      "author": "Gomer Grifffin",
+      "ISBN": "978-3-16-148410-0",
+      "category": "comedy",
+      "createdAt": "12th June 2020, 3:20 pm",
+      "editedAt": "17th June 2023, 1:20 am",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "title": "The Walking Dead",
+      "author": "John Dori",
+      "ISBN": "978-3-16-148410-1",
+      "category": "horror",
+      "createdAt": "15th July 2021, 3:10 am",
+      "editedAt": "-",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "title": "South park ",
+      "author": "Peter Griffin",
+      "ISBN": "975-3-16-148410-2",
+      "category": "horror",
+      "createdAt": "31th September 2018, 6:43 am",
+      "editedAt": "17th June 2023, 1:21 am",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "title": "Ebony",
+      "author": "El Gorn",
+      "ISBN": "978-3-16-148410-3",
+      "category": "historical",
+      "createdAt": "12th June 2020, 3:21 pm",
+      "editedAt": "-",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "title": "Backpacker",
+      "author": "Nick Bond",
+      "ISBN": "178-3-16-148410-4",
+      "category": "historical",
+      "createdAt": "12th June 2020, 3:22 pm",
+      "editedAt": "17th June 2023, 1:21 am",
+      "isActive": false
+    },
+    {
+      "id": 5,
+      "title": "The crisis",
+      "author": "Jack Chen",
+      "category": "comedy",
+      "ISBN": "978-3-16-148410-5",
+      "createdAt": "21th April 2022, 3:23 pm",
+      "editedAt": "-",
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "title": "Black Enterprise 2",
+      "author": "Richard Black",
+      "ISBN": "978-3-16-148410-6",
+      "category": "comedy",
+      "createdAt": "31th March 2017, 8:21 pm",
+      "editedAt": "17th June 2023, 1:19 am",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "title": "New life",
+      "author": "George Parker",
+      "category": "historical",
+      "ISBN": "978-3-16-148410-7",
+      "createdAt": "14th July 2023, 1:20 am",
+      "editedAt": "-",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "title": "Spider",
+      "author": "John Snow",
+      "ISBN": "918-3-16-248410-8",
+      "category": "horror",
+      "createdAt": "12th June 2021, 3:20 pm",
+      "editedAt": "17th June 2023, 1:21 am",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "title": "Teddy Bear",
+      "author": "June Pors",
+      "category": "comedy",
+      "ISBN": "978-3-16-148410-9",
+      "createdAt": "13th September 2002, 4:05 am",
+      "editedAt": "-",
+      "isActive": false
+    },
+    {
+      "id": 10,
+      "title": "A girl",
+      "author": "Alise May",
+      "category": "detective",
+      "ISBN": "978-3-16-148411-0",
+      "createdAt": "21th October 2010, 2:22 pm",
+      "editedAt": "-",
+      "isActive": false
+    },
+    {
+      "id": 11,
+      "title": "Man with a knife",
+      "author": "Charles Bukowski",
+      "category": "horror",
+      "ISBN": "978-3-16-148411-1",
+      "createdAt": "12th June 2023, 3:24 pm",
+      "editedAt": "-",
+      "isActive": true
+    }
+  ]
+}

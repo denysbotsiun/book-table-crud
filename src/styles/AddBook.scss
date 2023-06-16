@@ -1,0 +1,76 @@
+.formWrap {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .formOverlay {
+    padding: 20px;
+    background-color: #fff5;
+    border-radius: 25px;
+  }
+  .header {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  &_input {
+    display: flex;
+    flex-direction: column;
+  }
+  &_label {
+    color: white;
+    font-size: 20px;
+  }
+  &_inputField {
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+}
+
+.submitBtn {
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(182, 119, 241);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  &:hover {
+    background-color: rgb(156, 75, 231);
+  }
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 20px;
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dashboardLink {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: rgb(184, 184, 184);
+  }
+}
